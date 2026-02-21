@@ -1,25 +1,78 @@
 # Privacy Policy for Echo
 
-**Last Updated:** 20/2/2026
+**Last Updated:** February 20, 2026
 
-## Data Collection
+Echo ("the Extension") is a developer-focused Chrome extension for request interception and mocking. This policy explains how Echo handles your information. **We do not collect, sell, or share your data.**
 
-Echo ("the Extension") does **not** collect, store, or transmit any personal user data, browsing history, or network traffic to external servers or third parties.
+---
 
-## Data Usage
+## 1. No Personal Data Collection
 
-- **Network Requests**: The Extension intercepts network requests (fetch/XHR) solely for the purpose of processing user-defined rules (mocking/patching) within the browser. This processing happens locally on your device.
-- **Local Storage**: User-created rules and configurations are stored locally in your browser's `IndexedDB` and `chrome.storage` mechanisms.
+Echo **does not** collect, store, or transmit any of the following to external servers or third parties:
 
-## Permissions
+- Personal information  
+- Browsing history  
+- Network traffic or request/response content  
+- Analytics or usage data  
 
-- **Host Permissions**: Used exclusively to inject functionality into web pages to enable request interception. The Extension does not monitor browsing activity outside of the developer tools functionality.
-- **Storage**: Used to save your settings and mock rules globally.
+All processing described below happens **only on your device**.
 
-## Third-Party Services
+---
 
-The Extension operates entirely offline and does not integrate with any third-party analytics or tracking services.
+## 2. How Echo Uses Data Locally
 
-## Contact
+### Network request interception
 
-If you have questions about this policy, please open an issue on our GitHub repository or mail: slogllykop07@gmail.com
+Echo intercepts network requests (e.g. `fetch` and XHR) **only** to apply your own rules (mocking, patching, or other modifications). This is done entirely in your browser; no request data is sent elsewhere.
+
+### Local storage
+
+Your rules and configuration are stored **only** on your machine using:
+
+- **IndexedDB** and **chrome.storage** (browser storage)
+
+We do not have access to this data. It remains under your control and stays on your device.
+
+---
+
+## 3. Why We Request Permissions
+
+| Permission        | Purpose |
+|-------------------|--------|
+| **Host permissions** | To inject the logic needed for request interception on the pages you choose. Echo does not monitor or record general browsing activity. |
+| **Storage**       | To save your settings and mock rules (e.g. globally or per site). |
+
+Permissions are used only for these developer-tool features, not for tracking or analytics.
+
+---
+
+## 4. Third-Party Services
+
+Echo does **not** integrate with third-party analytics, tracking, or advertising. The extension works offline and does not send data to any external service.
+
+---
+
+## 5. Your Control and Data Retention
+
+- Your rules and settings stay in your browser until you change or remove them.  
+- Uninstalling the extension removes data stored by Echo (subject to your browser’s storage behavior).  
+- We do not retain any copy of your data because we never receive it.
+
+---
+
+## 6. Changes to This Policy
+
+We may update this privacy policy from time to time. The "Last Updated" date at the top will reflect the latest version. Continued use of Echo after changes means you accept the updated policy.
+
+---
+
+## 7. Contact
+
+Questions about this policy or Echo’s privacy practices:
+
+- **Email:** slogllykop07@gmail.com  
+- **GitHub:** Open an issue on the Echo repository  
+
+---
+
+*Echo is built for developers who need local control over network requests. Your data stays on your device.*
