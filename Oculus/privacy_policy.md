@@ -16,14 +16,11 @@ To facilitate the Peer-to-Peer connection between the broadcaster (Extension) an
 *   **Session IDs:** A temporary, unique Session ID is generated when you start a broadcast. This ID is used solely to allow the viewer to locate and connect to your browser.
 *   **ICE/TURN Servers:** We utilize industry-standard signaling and TURN servers to help establish the P2P connection through firewalls. These servers facilitate the handshake process only and do not have access to the actual media content of your stream.
 
-## 3. Storage
-The extension uses local browser storage only to manage current session states (e.g., whether a broadcast is currently active). No data is shared with third-party tracking or advertising services.
-
-## 4. Security
+## 3. Security
 By design, Oculus leverages the robust security of the WebRTC protocol, which includes mandatory encryption for all media streams. This ensures that your screen share remains private between you and the individuals with whom you share your unique link.
 
-## 5. Changes to This Policy
+## 4. Changes to This Policy
 We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons.
 
-## 6. Contact Us
-For any questions regarding this Privacy Policy or our privacy practices, please contact our support team through the official repository.
+## 5. Contact Us
+For any questions regarding this Privacy Policy or our privacy practices, please contact our support team at slogllykop07@gmail.com or go through the official repository.
